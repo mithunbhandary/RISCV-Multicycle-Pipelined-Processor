@@ -2,15 +2,7 @@ Welcome to RISCV Project
 
 The RISC-V processor is based on a "reduced instruction set computer" (RISC) architecture, which emphasizes simplicity by using a smaller set of instructions compared to more complex architectures. The 'V' in RISC-V denotes the 5th generation of this architecture. It is an open-source hardware instruction set architecture (ISA) based on the RISC principles, allowing developers to create custom hardware and software implementations.
 
-Problem Statement
-Design a CPU module for a simplified RISC-V processor that performs the following ALU operations:
-
-Addition
-Subtraction
-Logical operations (AND, OR, XOR)
-Comparison
-CPU RISC-V Module Description
-The module cpu_riscv is designed to implement a basic RISC-V processor pipeline, which includes the following components:
+cpu_riscv is designed to implement a basic RISC-V processor pipeline, which includes the following components:
 
 Program Counter (PC): Increments the PC to fetch the next instruction.
 Program Memory: Holds the instructions to be executed.
