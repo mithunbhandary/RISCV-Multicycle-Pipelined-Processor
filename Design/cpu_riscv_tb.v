@@ -1,15 +1,16 @@
 `include "cpu_riscv_top.v"
 
 module cpu_riscv_tb;
-
 	// Inputs
 	reg clk;
 	reg reset;
+	wire [31:0] pipelined_alu_out;
 
 	// Instantiate the Design Under Test (UUT)
 	cpu_riscv dut (
 		.clk(clk), 
-		.reset(reset)
+		.reset(reset),
+		.pipelined_alu_out(pipelined_alu_out)
 	);
    always #5 clk = ~clk;
 	initial begin
