@@ -1,5 +1,5 @@
-# vsim -c cpu_riscv -do "run -all; quit" 
-# Start time: 11:14:50 on Sep 12,2024
+# vsim -c cpu_riscv_tb -do "run -all; quit" 
+# Start time: 12:07:04 on Sep 12,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -15,8 +15,6 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# Loading work.cpu_riscv(fast)
-# run -all
-#  quit
-# End time: 11:14:51 on Sep 12,2024, Elapsed time: 0:00:01
+# Break key hit
+# End time: 12:07:57 on Sep 12,2024, Elapsed time: 0:00:53
 # Errors: 0, Warnings: 0

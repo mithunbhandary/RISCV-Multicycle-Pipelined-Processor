@@ -13,196 +13,227 @@ T_opt
 V8J=AQNWLU6m<gdS3_M6zA1
 04 9 4 work cpu_riscv fast 0
 =1-6805caf5892c-66e27fd3-125e1-1a798
-o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
 n@_opt
-OE;O;10.6c;65
+Z3 OE;O;10.6c;65
+R0
+T_opt1
+!s110 1726123024
+VPSa]UmXXCU6c40YXUdNhi0
+04 12 4 work cpu_riscv_tb fast 0
+=1-6805caf5892c-66e28c10-8d2eb-21af2
+R1
+R2
+n@_opt1
+R3
 valu
-Z2 !s110 1726119881
+Z4 !s110 1726123019
 !i10b 1
 !s100 Q70AoTYM`9afMdj?mK1MS0
 IkNBO0DbI@4X1H:]5S@U:J0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1726119685
+Z6 w1726119685
 8alu.v
 Falu.v
 L0 1
-Z5 OE;L;10.6c;65
+Z7 OE;L;10.6c;65
 r1
 !s85 0
 31
-Z6 !s108 1726119881.000000
-Z7 !s107 register_set.v|program_memory.v|program_counter.v|mux_2x1.v|instruction_decoder.v|dff.v|control_unit.v|alu.v|cpu_riscv_top.v|
-Z8 !s90 cpu_riscv_top.v|
+Z8 !s108 1726123019.000000
+Z9 !s107 register_set.v|program_memory.v|program_counter.v|mux_2x1.v|instruction_decoder.v|dff.v|control_unit.v|alu.v|cpu_riscv_top.v|cpu_riscv_tb.v|
+Z10 !s90 cpu_riscv_tb.v|
 !i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vcontrol_unit
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
+vcontrol_unit
+R4
 !i10b 1
 !s100 oJcYJznd^0=40[AU_l]dV0
 I4K8ChfgdjU]6U3F7Kfk7Z2
-R3
+R5
 R0
-R4
+R6
 8control_unit.v
 Fcontrol_unit.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vcpu_riscv
+R10
+!i113 0
+R11
 R2
+vcpu_riscv
+R4
 !i10b 1
 !s100 9BEkibF]0;jBM>>B]=ILc3
 IL?=SnC9n]YLNo^O]HC<<41
-R3
+R5
 R0
 w1726119878
 8cpu_riscv_top.v
 Fcpu_riscv_top.v
 L0 11
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vdff
+R10
+!i113 0
+R11
 R2
+vcpu_riscv_tb
+R4
+!i10b 1
+!s100 H6:3MEOiPBcZDn^GbJlPK1
+I5AA@Od;J>Ikf2_a6d3O@[2
+R5
+R0
+w1726123015
+8cpu_riscv_tb.v
+Fcpu_riscv_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vdff
+R4
 !i10b 1
 !s100 X36klG3BJdY^STb;JZKDR1
 I1I1CYiVZdk9PS8P]:Kj5L0
-R3
+R5
 R0
-R4
+R6
 8dff.v
 Fdff.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vinstruction_decoder
+R10
+!i113 0
+R11
 R2
+vinstruction_decoder
+R4
 !i10b 1
 !s100 [?=hdUk44Zc43Y5INDniR2
 IJU<JLmb@P@E3Cea0>aoKK1
-R3
+R5
 R0
-R4
+R6
 8instruction_decoder.v
 Finstruction_decoder.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vmux_2x1
+R10
+!i113 0
+R11
 R2
+vmux_2x1
+R4
 !i10b 1
 !s100 fZ^;l6Nc_QJb]JVgV1<LF2
 IjS1e8S=1aTXfBLPnlXC;U1
-R3
+R5
 R0
-R4
+R6
 8mux_2x1.v
 Fmux_2x1.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vprogram_counter
+R10
+!i113 0
+R11
 R2
+vprogram_counter
+R4
 !i10b 1
 !s100 U:eDRMWiV>>nGVZ@XfPMa0
 IhOD_U@7]@g34Gj_SH:a^e3
-R3
+R5
 R0
-R4
+R6
 8program_counter.v
 Fprogram_counter.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vprogram_memory
+R10
+!i113 0
+R11
 R2
+vprogram_memory
+R4
 !i10b 1
 !s100 VmaPHFT^@ROB`HQg0@?o63
 I_COz?cEFbJPI[Vl:9neN11
-R3
+R5
 R0
-R4
+R6
 8program_memory.v
 Fprogram_memory.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
-vregister_set
+R10
+!i113 0
+R11
 R2
+vregister_set
+R4
 !i10b 1
 !s100 Ih;02ic2OO71n>WdmK;Il2
 I7bnBQh<RgKkT<S_0j<Bjd2
-R3
+R5
 R0
-R4
+R6
 8register_set.v
 Fregister_set.v
 L0 1
-R5
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
+R10
+!i113 0
+R11
+R2

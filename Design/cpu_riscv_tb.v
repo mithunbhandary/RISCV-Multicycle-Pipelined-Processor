@@ -7,7 +7,7 @@ module cpu_riscv_tb;
 	reg reset;
 
 	// Instantiate the Design Under Test (UUT)
-	cpu_riscv_top dut (
+	cpu_riscv dut (
 		.clk(clk), 
 		.reset(reset)
 	);
