@@ -42,7 +42,7 @@ Z6 w1726133883
 Falu.v
 L0 1
 Z7 OE;L;10.6c;65
-Z8 !s108 1726138118.000000
+Z8 !s108 1726138694.000000
 Z9 !s107 register_set.v|program_memory.v|program_counter.v|mux_2x1.v|instruction_decoder.v|dff.v|control_unit.v|alu.v|cpu_riscv_top.v|cpu_riscv_tb.v|
 Z10 !s90 -reportprogress|300|cpu_riscv_tb.v|
 !i113 0
