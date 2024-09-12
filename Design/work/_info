@@ -42,7 +42,7 @@ Z6 w1726133883
 Falu.v
 L0 1
 Z7 OE;L;10.6c;65
-Z8 !s108 1726136534.000000
+Z8 !s108 1726138118.000000
 Z9 !s107 register_set.v|program_memory.v|program_counter.v|mux_2x1.v|instruction_decoder.v|dff.v|control_unit.v|alu.v|cpu_riscv_top.v|cpu_riscv_tb.v|
 Z10 !s90 -reportprogress|300|cpu_riscv_tb.v|
 !i113 0
@@ -77,7 +77,7 @@ r1
 !s100 zeMhFTCKVJM2O8=mWP5c_3
 IEH[LOo1GTN;VQiGDGS:f60
 R5
-w1726136135
+w1726136694
 8cpu_riscv_top.v
 Fcpu_riscv_top.v
 L0 11
@@ -97,7 +97,7 @@ r1
 !s100 6`lIO[8lo11PGOXBJCf900
 I283zjHo?E1zOF66R42k?H3
 R5
-R6
+w1726136706
 8cpu_riscv_tb.v
 Fcpu_riscv_tb.v
 L0 3

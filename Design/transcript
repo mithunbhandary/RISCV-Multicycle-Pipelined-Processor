@@ -13,18 +13,18 @@
 # //  18 U.S.C. Section 1905.
 # //
 # vsim $ 
-# Start time: 15:51:15 on Sep 12,2024
+# Start time: 16:17:56 on Sep 12,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Error: (vopt-13130) Failed to find design unit $.
 #         Searched libraries:
 #             work
 # Optimization failed
 # Error loading design
-# End time: 15:51:15 on Sep 12,2024, Elapsed time: 0:00:00
+# End time: 16:17:56 on Sep 12,2024, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 vlog cpu_riscv_tb.v
 # QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
-# Start time: 15:52:14 on Sep 12,2024
+# Start time: 16:18:38 on Sep 12,2024
 # vlog -reportprogress 300 cpu_riscv_tb.v 
 # -- Compiling module alu
 # -- Compiling module control_unit
@@ -39,11 +39,11 @@ vlog cpu_riscv_tb.v
 # 
 # Top level modules:
 # 	cpu_riscv_tb
-# End time: 15:52:14 on Sep 12,2024, Elapsed time: 0:00:00
+# End time: 16:18:38 on Sep 12,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -novopt -suppress 12110 cpu_riscv_tb
 # vsim -novopt -suppress 12110 cpu_riscv_tb 
-# Start time: 15:53:00 on Sep 12,2024
+# Start time: 16:19:29 on Sep 12,2024
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Refreshing /fetools/work_area/frontend/shreyask/RISCV-Multicycle-Pipelined-Processor/Design/work.cpu_riscv_tb
 # Loading work.cpu_riscv_tb
@@ -65,13 +65,10 @@ vsim -novopt -suppress 12110 cpu_riscv_tb
 # Loading work.dff
 # Refreshing /fetools/work_area/frontend/shreyask/RISCV-Multicycle-Pipelined-Processor/Design/work.mux_2x1
 # Loading work.mux_2x1
-add wave -position insertpoint sim:/cpu_riscv_tb/cpu_riscv_top/*
-# (vish-4014) No objects found matching '/cpu_riscv_tb/cpu_riscv_top/*'.
 add wave -position insertpoint sim:/cpu_riscv_tb/dut/*
 run -all
-# Causality operation skipped due to absence of debug database file
 quit
 # Break key hit
 # Break in Module program_counter at program_counter.v line 6
-# End time: 16:04:57 on Sep 12,2024, Elapsed time: 0:11:57
-# Errors: 1, Warnings: 2
+# End time: 16:21:09 on Sep 12,2024, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 1
