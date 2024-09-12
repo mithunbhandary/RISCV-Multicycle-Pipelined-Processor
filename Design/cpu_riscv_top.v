@@ -10,12 +10,13 @@
 
 module cpu_riscv(
     input clk,
-    input reset
+    input reset,
+    output [31:0] pipelined_alu_out
 );
     parameter ADDR_WIDTH=7,MEM_SIZE=128;
 
     wire [ADDR_WIDTH-1:0] pc_address,pc_next;
-    wire [31:0] instruction,imm_data_ext,Data1,Data2,alu_out,pipelined_alu_out,pipelined_imm_data_ext,Reg_WriteData;
+    wire [31:0] instruction,imm_data_ext,Data1,Data2,alu_out,pipelined_imm_data_ext,Reg_WriteData;
     wire [6:0] opcode,func7;
     wire [2:0] func3;
     wire [19:0] imm_data;
