@@ -1,3 +1,13 @@
+`include "alu.v"
+`include "control_unit.v"
+`include "dff.v"
+`include "instruction_decoder.v"
+`include "mux_2x1.v"
+`include "program_counter.v"
+`include "program_memory.v"
+`include "register_set.v"
+
+
 module cpu_riscv(
     input clk,
     input reset
