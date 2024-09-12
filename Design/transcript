@@ -74,4 +74,4 @@ quit
 # Break key hit
 # Break in Module program_counter at program_counter.v line 6
 # End time: 16:04:57 on Sep 12,2024, Elapsed time: 0:11:57
-# Errors: 1, Warnings: 2
+# Errors: 0, Warnings: 2
