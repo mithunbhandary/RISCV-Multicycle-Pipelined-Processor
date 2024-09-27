@@ -93,6 +93,12 @@ module alu_tb;
       $display("FAIL: Time = %0t | alu_opcode = %b | alu_out = %h | Expected = %h", $time, alu_opcode, alu_out, ref_alu_out);
     end
   endtask
+  
+  // Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
 
 endmodule
 
