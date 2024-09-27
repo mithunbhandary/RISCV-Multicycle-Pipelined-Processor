@@ -98,11 +98,5 @@ module control_unit_tb;
     end
   endtask
 
-  // Dump waveform for viewing
-  initial begin
-    $dumpfile("control_unit.vcd");
-    $dumpvars(0, tb_control_unit);  // Dump all variables in testbench
-  end
-
 endmodule
 
