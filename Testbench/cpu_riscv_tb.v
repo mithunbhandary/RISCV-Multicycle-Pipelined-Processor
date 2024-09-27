@@ -20,4 +20,10 @@ module cpu_riscv_tb;
 		#10 reset = 0;
     #1000;
 	end     
+
+	// Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
 endmodule
