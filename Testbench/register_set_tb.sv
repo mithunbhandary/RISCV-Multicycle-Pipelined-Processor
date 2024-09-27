@@ -107,5 +107,11 @@ module register_set_tb;
               $time, clk, write_en, WriteAdd, Reg_WriteData, ReadAdd1, Data1, ReadAdd2, Data2);
   end
 
+  // Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
+
 endmodule
 
