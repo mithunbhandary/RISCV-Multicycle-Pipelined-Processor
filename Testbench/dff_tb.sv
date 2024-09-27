@@ -65,5 +65,11 @@ module dff_tb;
     $monitor("Time: %0t | clk: %b | in: %h | pipelined_out: %h", $time, clk, in, pipelined_out);
   end
 
+  // Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
+
 endmodule
 
