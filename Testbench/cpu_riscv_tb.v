@@ -1,4 +1,4 @@
-`include "cpu_riscv_top.v"
+`include "../Design/cpu_riscv_top.v"
 
 module cpu_riscv_tb;
 	// Inputs
