@@ -98,5 +98,11 @@ module control_unit_tb;
     end
   endtask
 
+  // Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
+
 endmodule
 
