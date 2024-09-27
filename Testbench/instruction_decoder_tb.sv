@@ -113,8 +113,8 @@ module instruction_decoder_tb;
 
   // Dump waveform for viewing
   initial begin
-    $dumpfile("instruction_decoder.vcd"); 
-    $dumpvars(0, tb_instruction_decoder);  // Dump all variables in testbench
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
   end
 
 endmodule
