@@ -67,5 +67,11 @@ module mux_2x1_tb;
              $time, in0, in1, sel, out);
   end
 
+  // Dump waveform for viewing
+  initial begin
+    $dumpfile("dump.vcd"); 
+    $dumpvars;
+  end
+
 endmodule
 
