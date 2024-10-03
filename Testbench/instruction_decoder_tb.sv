@@ -85,7 +85,6 @@ module instruction_decoder_tb;
     reference_model(instruction);
     #10;
     check_results(5);
-
     // End simulation
     $finish;
   end
