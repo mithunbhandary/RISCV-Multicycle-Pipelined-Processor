@@ -1,5 +1,4 @@
 `include "../Design/alu.v"
-
 module alu_tb;
 
   // Inputs
