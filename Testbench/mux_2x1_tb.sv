@@ -57,7 +57,6 @@ module mux_2x1_tb;
       #10;
     end
 
-    // Finish simulation
     $finish;
   end
 
