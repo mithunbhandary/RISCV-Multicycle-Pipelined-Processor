@@ -48,10 +48,6 @@ module register_set_tb;
     integer i;
     reg [4:0] random_address;
 
-    // Initialize the register file (reference model)
-    for (i = 0; i < 32; i = i + 1) begin
-      register_file[i] = 0;
-    end
 
     // Initialize inputs
     write_en = 0;

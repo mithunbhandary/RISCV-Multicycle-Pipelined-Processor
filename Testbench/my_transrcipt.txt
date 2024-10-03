@@ -1,0 +1,330 @@
+# vsim -c pc_tb 
+# Start time: 11:48:12 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.pc_tb(fast)
+# 
+# Program counter reset condition passed!
+# reset = 1, address = 0
+# 
+# PC increment operation :Pass!
+# Present Address = 1, Previous Adrress = 0
+# PC increment operation :Pass!
+# Present Address = 2, Previous Adrress = 1
+# PC increment operation :Pass!
+# Present Address = 3, Previous Adrress = 2
+# PC increment operation :Pass!
+# Present Address = 4, Previous Adrress = 3
+# PC increment operation :Pass!
+# Present Address = 5, Previous Adrress = 4
+# 
+# Program counter reset condition passed!
+# reset = 1, address = 0
+# 
+# PC increment operation :Pass!
+# Present Address = 1, Previous Adrress = 0
+# PC increment operation :Pass!
+# Present Address = 2, Previous Adrress = 1
+# PC increment operation :Pass!
+# Present Address = 3, Previous Adrress = 2
+# PC increment operation :Pass!
+# Present Address = 4, Previous Adrress = 3
+# PC increment operation :Pass!
+# Present Address = 5, Previous Adrress = 4
+# PC increment operation :Pass!
+# Present Address = 6, Previous Adrress = 5
+# PC increment operation :Pass!
+# Present Address = 7, Previous Adrress = 6
+# PC increment operation :Pass!
+# Present Address = 8, Previous Adrress = 7
+# PC increment operation :Pass!
+# Present Address = 9, Previous Adrress = 8
+# PC increment operation :Pass!
+# Present Address = 10, Previous Adrress = 9
+# ** Note: $finish    : program_counter_tb.sv(21)
+#    Time: 170 ns  Iteration: 0  Instance: /pc_tb
+# End time: 11:48:22 on Oct 03,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim -c instruction_decoder_tb 
+# Start time: 11:51:41 on Oct 03,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.instruction_decoder_tb(fast)
+# Test 1 PASSED.
+# Test 2 PASSED.
+# Test 3 PASSED.
+# Test 4 PASSED.
+# Test 5 PASSED.
+# ** Note: $finish    : instruction_decoder_tb.sv(90)
+#    Time: 50 ns  Iteration: 0  Instance: /instruction_decoder_tb
+# End time: 11:51:45 on Oct 03,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim -c control_unit_tb 
+# Start time: 11:53:30 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.control_unit_tb(fast)
+# Test 1 PASSED.
+# Test 2 PASSED.
+# Test 3 PASSED.
+# Test 4 PASSED.
+# Test 5 PASSED.
+# ** Note: $finish    : control_unit_tb.sv(76)
+#    Time: 50 ns  Iteration: 0  Instance: /control_unit_tb
+# End time: 11:53:34 on Oct 03,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim -c register_set_tb 
+# Start time: 11:54:08 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: register_set_tb.sv(47): (vopt-2244) Variable 'seed' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.register_set_tb(fast)
+# Time = 0 | clk = 0 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = 00000000 | ReadAdd1 =  0 | Data1 = xxxxxxxx | ReadAdd2 =  0 | Data2 = xxxxxxxx
+# Time = 5 | clk = 1 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = 00000000 | ReadAdd1 =  0 | Data1 = xxxxxxxx | ReadAdd2 =  0 | Data2 = xxxxxxxx
+# Time = 10 | clk = 0 | write_en = 1 | WriteAdd =  5 | Reg_WriteData = 05fecf0b | ReadAdd1 =  0 | Data1 = xxxxxxxx | ReadAdd2 =  0 | Data2 = xxxxxxxx
+# Time = 15 | clk = 1 | write_en = 1 | WriteAdd =  5 | Reg_WriteData = 05fecf0b | ReadAdd1 =  0 | Data1 = xxxxxxxx | ReadAdd2 =  0 | Data2 = xxxxxxxx
+# Time = 20 | clk = 0 | write_en = 0 | WriteAdd =  5 | Reg_WriteData = 05fecf0b | ReadAdd1 =  5 | Data1 = 05fecf0b | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 25 | clk = 1 | write_en = 0 | WriteAdd =  5 | Reg_WriteData = 05fecf0b | ReadAdd1 =  5 | Data1 = 05fecf0b | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# PASS: Time = 30 | ReadAdd1 =  5 | Data = 05fecf0b
+# PASS: Time = 30 | ReadAdd2 = 18 | Data = xxxxxxxx
+# Time = 30 | clk = 0 | write_en = 1 | WriteAdd = 22 | Reg_WriteData = 28f70351 | ReadAdd1 =  5 | Data1 = 05fecf0b | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 35 | clk = 1 | write_en = 1 | WriteAdd = 22 | Reg_WriteData = 28f70351 | ReadAdd1 =  5 | Data1 = 05fecf0b | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 40 | clk = 0 | write_en = 0 | WriteAdd = 22 | Reg_WriteData = 28f70351 | ReadAdd1 = 22 | Data1 = 28f70351 | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 45 | clk = 1 | write_en = 0 | WriteAdd = 22 | Reg_WriteData = 28f70351 | ReadAdd1 = 22 | Data1 = 28f70351 | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# PASS: Time = 50 | ReadAdd1 = 22 | Data = 28f70351
+# PASS: Time = 50 | ReadAdd2 = 18 | Data = xxxxxxxx
+# Time = 50 | clk = 0 | write_en = 1 | WriteAdd =  0 | Reg_WriteData = f6bb32ed | ReadAdd1 = 22 | Data1 = 28f70351 | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 55 | clk = 1 | write_en = 1 | WriteAdd =  0 | Reg_WriteData = f6bb32ed | ReadAdd1 = 22 | Data1 = 28f70351 | ReadAdd2 = 18 | Data2 = xxxxxxxx
+# Time = 60 | clk = 0 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = f6bb32ed | ReadAdd1 =  0 | Data1 = f6bb32ed | ReadAdd2 = 13 | Data2 = xxxxxxxx
+# Time = 65 | clk = 1 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = f6bb32ed | ReadAdd1 =  0 | Data1 = f6bb32ed | ReadAdd2 = 13 | Data2 = xxxxxxxx
+# PASS: Time = 70 | ReadAdd1 =  0 | Data = f6bb32ed
+# PASS: Time = 70 | ReadAdd2 = 13 | Data = xxxxxxxx
+# Time = 70 | clk = 0 | write_en = 1 | WriteAdd = 12 | Reg_WriteData = 8950b012 | ReadAdd1 =  0 | Data1 = f6bb32ed | ReadAdd2 = 13 | Data2 = xxxxxxxx
+# Time = 75 | clk = 1 | write_en = 1 | WriteAdd = 12 | Reg_WriteData = 8950b012 | ReadAdd1 =  0 | Data1 = f6bb32ed | ReadAdd2 = 13 | Data2 = xxxxxxxx
+# Time = 80 | clk = 0 | write_en = 0 | WriteAdd = 12 | Reg_WriteData = 8950b012 | ReadAdd1 = 12 | Data1 = 8950b012 | ReadAdd2 = 25 | Data2 = xxxxxxxx
+# Time = 85 | clk = 1 | write_en = 0 | WriteAdd = 12 | Reg_WriteData = 8950b012 | ReadAdd1 = 12 | Data1 = 8950b012 | ReadAdd2 = 25 | Data2 = xxxxxxxx
+# PASS: Time = 90 | ReadAdd1 = 12 | Data = 8950b012
+# PASS: Time = 90 | ReadAdd2 = 25 | Data = xxxxxxxx
+# Time = 90 | clk = 0 | write_en = 1 | WriteAdd = 21 | Reg_WriteData = 3e04c37c | ReadAdd1 = 12 | Data1 = 8950b012 | ReadAdd2 = 25 | Data2 = xxxxxxxx
+# Time = 95 | clk = 1 | write_en = 1 | WriteAdd = 21 | Reg_WriteData = 3e04c37c | ReadAdd1 = 12 | Data1 = 8950b012 | ReadAdd2 = 25 | Data2 = xxxxxxxx
+# Time = 100 | clk = 0 | write_en = 0 | WriteAdd = 21 | Reg_WriteData = 3e04c37c | ReadAdd1 = 21 | Data1 = 3e04c37c | ReadAdd2 = 15 | Data2 = xxxxxxxx
+# Time = 105 | clk = 1 | write_en = 0 | WriteAdd = 21 | Reg_WriteData = 3e04c37c | ReadAdd1 = 21 | Data1 = 3e04c37c | ReadAdd2 = 15 | Data2 = xxxxxxxx
+# PASS: Time = 110 | ReadAdd1 = 21 | Data = 3e04c37c
+# PASS: Time = 110 | ReadAdd2 = 15 | Data = xxxxxxxx
+# Time = 110 | clk = 0 | write_en = 1 | WriteAdd = 18 | Reg_WriteData = 0781130f | ReadAdd1 = 21 | Data1 = 3e04c37c | ReadAdd2 = 15 | Data2 = xxxxxxxx
+# Time = 115 | clk = 1 | write_en = 1 | WriteAdd = 18 | Reg_WriteData = 0781130f | ReadAdd1 = 21 | Data1 = 3e04c37c | ReadAdd2 = 15 | Data2 = xxxxxxxx
+# Time = 120 | clk = 0 | write_en = 0 | WriteAdd = 18 | Reg_WriteData = 0781130f | ReadAdd1 = 18 | Data1 = 0781130f | ReadAdd2 =  2 | Data2 = xxxxxxxx
+# Time = 125 | clk = 1 | write_en = 0 | WriteAdd = 18 | Reg_WriteData = 0781130f | ReadAdd1 = 18 | Data1 = 0781130f | ReadAdd2 =  2 | Data2 = xxxxxxxx
+# PASS: Time = 130 | ReadAdd1 = 18 | Data = 0781130f
+# PASS: Time = 130 | ReadAdd2 =  2 | Data = xxxxxxxx
+# Time = 130 | clk = 0 | write_en = 1 | WriteAdd =  0 | Reg_WriteData = 9499b629 | ReadAdd1 = 18 | Data1 = 0781130f | ReadAdd2 =  2 | Data2 = xxxxxxxx
+# Time = 135 | clk = 1 | write_en = 1 | WriteAdd =  0 | Reg_WriteData = 9499b629 | ReadAdd1 = 18 | Data1 = 0781130f | ReadAdd2 =  2 | Data2 = xxxxxxxx
+# Time = 140 | clk = 0 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = 9499b629 | ReadAdd1 =  0 | Data1 = 9499b629 | ReadAdd2 =  5 | Data2 = 05fecf0b
+# Time = 145 | clk = 1 | write_en = 0 | WriteAdd =  0 | Reg_WriteData = 9499b629 | ReadAdd1 =  0 | Data1 = 9499b629 | ReadAdd2 =  5 | Data2 = 05fecf0b
+# PASS: Time = 150 | ReadAdd1 =  0 | Data = 9499b629
+# PASS: Time = 150 | ReadAdd2 =  5 | Data = 05fecf0b
+# Time = 150 | clk = 0 | write_en = 1 | WriteAdd = 15 | Reg_WriteData = a19e0043 | ReadAdd1 =  0 | Data1 = 9499b629 | ReadAdd2 =  5 | Data2 = 05fecf0b
+# Time = 155 | clk = 1 | write_en = 1 | WriteAdd = 15 | Reg_WriteData = a19e0043 | ReadAdd1 =  0 | Data1 = 9499b629 | ReadAdd2 =  5 | Data2 = 05fecf0b
+# Time = 160 | clk = 0 | write_en = 0 | WriteAdd = 15 | Reg_WriteData = a19e0043 | ReadAdd1 = 15 | Data1 = a19e0043 | ReadAdd2 =  0 | Data2 = 9499b629
+# Time = 165 | clk = 1 | write_en = 0 | WriteAdd = 15 | Reg_WriteData = a19e0043 | ReadAdd1 = 15 | Data1 = a19e0043 | ReadAdd2 =  0 | Data2 = 9499b629
+# PASS: Time = 170 | ReadAdd1 = 15 | Data = a19e0043
+# PASS: Time = 170 | ReadAdd2 =  0 | Data = 9499b629
+# Time = 170 | clk = 0 | write_en = 1 | WriteAdd = 31 | Reg_WriteData = 51210ba2 | ReadAdd1 = 15 | Data1 = a19e0043 | ReadAdd2 =  0 | Data2 = 9499b629
+# Time = 175 | clk = 1 | write_en = 1 | WriteAdd = 31 | Reg_WriteData = 51210ba2 | ReadAdd1 = 15 | Data1 = a19e0043 | ReadAdd2 =  0 | Data2 = 9499b629
+# Time = 180 | clk = 0 | write_en = 0 | WriteAdd = 31 | Reg_WriteData = 51210ba2 | ReadAdd1 = 31 | Data1 = 51210ba2 | ReadAdd2 = 29 | Data2 = xxxxxxxx
+# Time = 185 | clk = 1 | write_en = 0 | WriteAdd = 31 | Reg_WriteData = 51210ba2 | ReadAdd1 = 31 | Data1 = 51210ba2 | ReadAdd2 = 29 | Data2 = xxxxxxxx
+# PASS: Time = 190 | ReadAdd1 = 31 | Data = 51210ba2
+# PASS: Time = 190 | ReadAdd2 = 29 | Data = xxxxxxxx
+# Time = 190 | clk = 0 | write_en = 1 | WriteAdd =  7 | Reg_WriteData = b7d5bc6f | ReadAdd1 = 31 | Data1 = 51210ba2 | ReadAdd2 = 29 | Data2 = xxxxxxxx
+# Time = 195 | clk = 1 | write_en = 1 | WriteAdd =  7 | Reg_WriteData = b7d5bc6f | ReadAdd1 = 31 | Data1 = 51210ba2 | ReadAdd2 = 29 | Data2 = xxxxxxxx
+# Time = 200 | clk = 0 | write_en = 0 | WriteAdd =  7 | Reg_WriteData = b7d5bc6f | ReadAdd1 =  7 | Data1 = b7d5bc6f | ReadAdd2 = 22 | Data2 = 28f70351
+# Time = 205 | clk = 1 | write_en = 0 | WriteAdd =  7 | Reg_WriteData = b7d5bc6f | ReadAdd1 =  7 | Data1 = b7d5bc6f | ReadAdd2 = 22 | Data2 = 28f70351
+# PASS: Time = 210 | ReadAdd1 =  7 | Data = b7d5bc6f
+# PASS: Time = 210 | ReadAdd2 = 22 | Data = 28f70351
+# ** Note: $finish    : register_set_tb.sv(97)
+#    Time: 210 ns  Iteration: 0  Instance: /register_set_tb
+# End time: 11:54:14 on Oct 03,2024, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 1
+# vsim -c alu_tb 
+# Start time: 11:54:33 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.alu_tb(fast)
+# Time = 0 | Data1 = 00000000 | Data2 = 00000000 | alu_opcode = 0000 | alu_out = 00000000 | Expected = 00000000
+# Time = 10 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0001 | alu_out = 0000000f | Expected = 0000000f
+# PASS: Time = 20 | alu_opcode = 0001 | alu_out = 0000000f | Expected = 0000000f
+# Time = 20 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0010 | alu_out = fffffffb | Expected = fffffffb
+# PASS: Time = 30 | alu_opcode = 0010 | alu_out = fffffffb | Expected = fffffffb
+# Time = 30 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0011 | alu_out = 00000000 | Expected = 00000000
+# PASS: Time = 40 | alu_opcode = 0011 | alu_out = 00000000 | Expected = 00000000
+# Time = 40 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0100 | alu_out = 0000000f | Expected = 0000000f
+# PASS: Time = 50 | alu_opcode = 0100 | alu_out = 0000000f | Expected = 0000000f
+# Time = 50 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0101 | alu_out = 0000000f | Expected = 0000000f
+# PASS: Time = 60 | alu_opcode = 0101 | alu_out = 0000000f | Expected = 0000000f
+# Time = 60 | Data1 = 00000005 | Data2 = 0000000a | alu_opcode = 0000 | alu_out = 00000000 | Expected = 00000000
+# PASS: Time = 70 | alu_opcode = 0000 | alu_out = 00000000 | Expected = 00000000
+# ** Note: $finish    : alu_tb.sv(79)
+#    Time: 70 ns  Iteration: 0  Instance: /alu_tb
+# End time: 11:55:12 on Oct 03,2024, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -c dff_tb 
+# Start time: 11:56:04 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dff_tb(fast)
+# Time: 0 | clk: 0 | in: 00000000 | pipelined_out: xxxxxxxx
+# Time: 5 | clk: 1 | in: 00000000 | pipelined_out: 00000000
+# Time: 10 | clk: 0 | in: ffffffff | pipelined_out: 00000000
+# Time: 15 | clk: 1 | in: ffffffff | pipelined_out: ffffffff
+# Time: 20 | clk: 0 | in: ffffffff | pipelined_out: ffffffff
+# Time: 25 | clk: 1 | in: ffffffff | pipelined_out: ffffffff
+# Time: 30 | clk: 0 | in: 00000000 | pipelined_out: ffffffff
+# Time: 35 | clk: 1 | in: 00000000 | pipelined_out: 00000000
+# Time: 40 | clk: 0 | in: 00000000 | pipelined_out: 00000000
+# Time: 45 | clk: 1 | in: 00000000 | pipelined_out: 00000000
+# Time: 50 | clk: 0 | in: a5a5a5a5 | pipelined_out: 00000000
+# Time: 55 | clk: 1 | in: a5a5a5a5 | pipelined_out: a5a5a5a5
+# Time: 60 | clk: 0 | in: a5a5a5a5 | pipelined_out: a5a5a5a5
+# Time: 65 | clk: 1 | in: a5a5a5a5 | pipelined_out: a5a5a5a5
+# Time: 70 | clk: 0 | in: 5a5a5a5a | pipelined_out: a5a5a5a5
+# Time: 75 | clk: 1 | in: 5a5a5a5a | pipelined_out: 5a5a5a5a
+# Time: 80 | clk: 0 | in: 5a5a5a5a | pipelined_out: 5a5a5a5a
+# Time: 85 | clk: 1 | in: 5a5a5a5a | pipelined_out: 5a5a5a5a
+# Time: 90 | clk: 0 | in: 12345678 | pipelined_out: 5a5a5a5a
+# Time: 95 | clk: 1 | in: 12345678 | pipelined_out: 12345678
+# Time: 100 | clk: 0 | in: 12345678 | pipelined_out: 12345678
+# Time: 105 | clk: 1 | in: 12345678 | pipelined_out: 12345678
+# ** Note: $finish    : dff_tb.sv(60)
+#    Time: 110 ns  Iteration: 0  Instance: /dff_tb
+# End time: 11:56:09 on Oct 03,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim -c mux_2x1_tb 
+# Start time: 11:56:37 on Oct 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: mux_2x1_tb.sv(35): (vopt-2244) Variable 'seed' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.mux_2x1_tb(fast)
+# Monitor: Time = 0 | in0 = 62c30bc5 | in1 = 05fecf0b | sel = 0 | out = 62c30bc5
+# PASS: Time = 5 | in0 = 62c30bc5 | in1 = 05fecf0b | sel = 0 | out = 62c30bc5
+# Monitor: Time = 15 | in0 = db196cb6 | in1 = 28f70351 | sel = 0 | out = db196cb6
+# PASS: Time = 20 | in0 = db196cb6 | in1 = 28f70351 | sel = 0 | out = db196cb6
+# Monitor: Time = 30 | in0 = d043c0a0 | in1 = f6bb32ed | sel = 1 | out = f6bb32ed
+# PASS: Time = 35 | in0 = d043c0a0 | in1 = f6bb32ed | sel = 1 | out = f6bb32ed
+# Monitor: Time = 45 | in0 = f60be8ec | in1 = 8950b012 | sel = 1 | out = 8950b012
+# PASS: Time = 50 | in0 = f60be8ec | in1 = 8950b012 | sel = 1 | out = 8950b012
+# Monitor: Time = 60 | in0 = bac1da75 | in1 = 3e04c37c | sel = 1 | out = 3e04c37c
+# PASS: Time = 65 | in0 = bac1da75 | in1 = 3e04c37c | sel = 1 | out = 3e04c37c
+# Monitor: Time = 75 | in0 = a96ebc52 | in1 = 0781130f | sel = 0 | out = a96ebc52
+# PASS: Time = 80 | in0 = a96ebc52 | in1 = 0781130f | sel = 0 | out = a96ebc52
+# Monitor: Time = 90 | in0 = c06c0480 | in1 = 9499b629 | sel = 1 | out = 9499b629
+# PASS: Time = 95 | in0 = c06c0480 | in1 = 9499b629 | sel = 1 | out = 9499b629
+# Monitor: Time = 105 | in0 = 079c970f | in1 = a19e0043 | sel = 0 | out = 079c970f
+# PASS: Time = 110 | in0 = 079c970f | in1 = a19e0043 | sel = 0 | out = 079c970f
+# Monitor: Time = 120 | in0 = 5fa097bf | in1 = 51210ba2 | sel = 1 | out = 51210ba2
+# PASS: Time = 125 | in0 = 5fa097bf | in1 = 51210ba2 | sel = 1 | out = 51210ba2
+# Monitor: Time = 135 | in0 = 53de47a7 | in1 = b7d5bc6f | sel = 0 | out = 53de47a7
+# PASS: Time = 140 | in0 = 53de47a7 | in1 = b7d5bc6f | sel = 0 | out = 53de47a7
+# ** Note: $finish    : mux_2x1_tb.sv(61)
+#    Time: 150 ns  Iteration: 0  Instance: /mux_2x1_tb
+# End time: 11:56:44 on Oct 03,2024, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 1

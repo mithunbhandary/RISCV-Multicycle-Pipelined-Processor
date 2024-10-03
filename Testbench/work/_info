@@ -1,0 +1,417 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/prakhyath/RISCV-Multicycle-Pipelined-Processor/Testbench
+T_opt
+!s110 1727936856
+VaogLY4z>jgem`mHjFjgiD3
+04 12 4 work cpu_riscv_tb fast 0
+=1-6805caf5892c-66fe3958-9a56c-248db
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.6c;65
+T_opt1
+!s110 1727936765
+VX4_Rn?_e4f_91QK=R_igQ0
+04 6 4 work dff_tb fast 0
+=1-6805caf5892c-66fe38fd-24de1-2481d
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1727936797
+VDFAdBGY03_AMheQKgg?RT1
+04 10 4 work mux_2x1_tb fast 0
+=1-6805caf5892c-66fe391d-97f0d-24879
+R1
+R2
+n@_opt2
+R3
+R0
+valu
+Z4 !s110 1727936846
+!i10b 1
+!s100 Q70AoTYM`9afMdj?mK1MS0
+I5A;<_iMiQj`X>9Iai8mDH3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1727931602
+8../Design/alu.v
+F../Design/alu.v
+L0 1
+Z6 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z7 !s108 1727936846.000000
+Z8 !s107 ../Design/register_set.v|../Design/program_memory.v|../Design/program_counter.v|../Design/mux_2x1.v|../Design/instruction_decoder.v|../Design/dff.v|../Design/control_unit.v|../Design/alu.v|../Design/cpu_riscv_top.v|cpu_riscv_tb.v|
+Z9 !s90 cpu_riscv_tb.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+valu_tb
+Z11 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1727936667
+!i10b 1
+!s100 E=5^GC]X;@U<OS[C7]^U@0
+IhNQFQb80Mo>TEFl[RW4O?0
+R5
+!s105 alu_tb_sv_unit
+S1
+R0
+w1727935450
+8alu_tb.sv
+Falu_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936667.000000
+!s107 ../Design/alu.v|alu_tb.sv|
+!s90 alu_tb.sv|
+!i113 0
+R10
+R2
+vcontrol_unit
+R4
+!i10b 1
+!s100 oJcYJznd^0=40[AU_l]dV0
+I>k11h4H5W?lTGn^?45<6b1
+R5
+R0
+Z12 w1727930443
+8../Design/control_unit.v
+F../Design/control_unit.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vcontrol_unit_tb
+R11
+!s110 1727936603
+!i10b 1
+!s100 N[KiAdbTRBo3cf5j63[_Q0
+I2=I82b1hToMI[l^m02F;W0
+R5
+!s105 control_unit_tb_sv_unit
+S1
+R0
+w1727933283
+8control_unit_tb.sv
+Fcontrol_unit_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936603.000000
+!s107 ../Design/control_unit.v|control_unit_tb.sv|
+!s90 control_unit_tb.sv|
+!i113 0
+R10
+R2
+vcpu_riscv
+R4
+!i10b 1
+!s100 zeMhFTCKVJM2O8=mWP5c_3
+I_DLV`88==biCa0iP9F8zE1
+R5
+R0
+R12
+8../Design/cpu_riscv_top.v
+F../Design/cpu_riscv_top.v
+L0 11
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vcpu_riscv_tb
+R4
+!i10b 1
+!s100 F;Wldhk:XciN;Ug>^:QX<3
+IRz<lS@NG;L5M9fgkHEeM[0
+R5
+R0
+w1727936837
+8cpu_riscv_tb.v
+Fcpu_riscv_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vdff
+R4
+!i10b 1
+!s100 X36klG3BJdY^STb;JZKDR1
+IWgYl<^6k]z5QUdnEOn^X^1
+R5
+R0
+R12
+8../Design/dff.v
+F../Design/dff.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vdff_tb
+R11
+!s110 1727936756
+!i10b 1
+!s100 1G=6mHL=jW5XQ5eMU9nO72
+IGIQmT<?_oX8UFPKVeNBoA0
+R5
+!s105 dff_tb_sv_unit
+S1
+R0
+w1727933470
+8dff_tb.sv
+Fdff_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936756.000000
+!s107 ../Design/dff.v|dff_tb.sv|
+!s90 dff_tb.sv|
+!i113 0
+R10
+R2
+vinstruction_decoder
+R4
+!i10b 1
+!s100 [?=hdUk44Zc43Y5INDniR2
+ImjWXR`^k^5<HdhL^ahB9i0
+R5
+R0
+R12
+8../Design/instruction_decoder.v
+F../Design/instruction_decoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vinstruction_decoder_tb
+R11
+!s110 1727936494
+!i10b 1
+!s100 `D`S8oaa@LGUnz_9EgoEO1
+I:@j[flTQeRYZ114T4=OM<3
+R5
+!s105 instruction_decoder_tb_sv_unit
+S1
+R0
+w1727935059
+8instruction_decoder_tb.sv
+Finstruction_decoder_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936494.000000
+!s107 ../Design/instruction_decoder.v|instruction_decoder_tb.sv|
+!s90 instruction_decoder_tb.sv|
+!i113 0
+R10
+R2
+vmux_2x1
+R4
+!i10b 1
+!s100 fZ^;l6Nc_QJb]JVgV1<LF2
+IWl6;kDK=iY80z63WFWgHT3
+R5
+R0
+R12
+8../Design/mux_2x1.v
+F../Design/mux_2x1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vmux_2x1_tb
+R11
+!s110 1727936786
+!i10b 1
+!s100 0FTF1:O^]IT3[mRAc;kJ`3
+IzEY3^MW]13TDGf<`HzeNO1
+R5
+!s105 mux_2x1_tb_sv_unit
+S1
+R0
+w1727932623
+8mux_2x1_tb.sv
+Fmux_2x1_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936786.000000
+!s107 ../Design/mux_2x1.v|mux_2x1_tb.sv|
+!s90 mux_2x1_tb.sv|
+!i113 0
+R10
+R2
+vpc_tb
+R11
+!s110 1727936281
+!i10b 1
+!s100 oBBQN0k;`7GHKlc6Slj@c0
+IKG=0UJ65JX^d^>b^OmUHG1
+R5
+!s105 program_counter_tb_sv_unit
+S1
+R0
+w1727934749
+8program_counter_tb.sv
+Fprogram_counter_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936281.000000
+!s107 ../Design/program_counter.v|program_counter_tb.sv|
+!s90 program_counter_tb.sv|
+!i113 0
+R10
+R2
+vprogram_counter
+R4
+!i10b 1
+!s100 U:eDRMWiV>>nGVZ@XfPMa0
+IG>6aeE53lzaBECljNh<^b0
+R5
+R0
+R12
+8../Design/program_counter.v
+F../Design/program_counter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vprogram_memory
+R4
+!i10b 1
+!s100 VmaPHFT^@ROB`HQg0@?o63
+IQIlD@58NcdPHRO3EH5aXY3
+R5
+R0
+R12
+8../Design/program_memory.v
+F../Design/program_memory.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vregister_set
+R4
+!i10b 1
+!s100 Ih;02ic2OO71n>WdmK;Il2
+I>6]mzQ;Eb4:5mL6TAGL082
+R5
+R0
+R12
+8../Design/register_set.v
+F../Design/register_set.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vregister_set_tb
+R11
+!s110 1727936634
+!i10b 1
+!s100 45ES61Zl9NhYQVhl=efj42
+I5Uj3zD7f6T10c55548:3g2
+R5
+!s105 register_set_tb_sv_unit
+S1
+R0
+w1727934553
+8register_set_tb.sv
+Fregister_set_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1727936634.000000
+!s107 ../Design/register_set.v|register_set_tb.sv|
+!s90 register_set_tb.sv|
+!i113 0
+R10
+R2
