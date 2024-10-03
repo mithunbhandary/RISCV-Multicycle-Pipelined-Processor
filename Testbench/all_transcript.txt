@@ -90,6 +90,8 @@ Simulation Results for CPU Components: Instruction Decoder
 #    Time: 50 ns  Iteration: 0  Instance: /instruction_decoder_tb
 # End time: 11:51:45 on Oct 03,2024, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 0
+
+Simulation Results for CPU Components: Control Unit
 # vsim -c control_unit_tb 
 # Start time: 11:53:30 on Oct 03,2024
 # ** Note: (vsim-3812) Design is being optimized...
