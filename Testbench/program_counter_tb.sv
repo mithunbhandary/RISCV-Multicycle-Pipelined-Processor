@@ -36,8 +36,7 @@ module pc_tb #(parameter addr_width = 7);
         $display("Program counter reset condition failed!");
         $display("reset = %0d, address = %0d", reset, pc_addr_out);        
       end             
-    end 
-    
+    end  
     
     else begin       
       #1;
