@@ -1,4 +1,4 @@
-module program_memory #(parameter addr_width=7,mem_size=128)(
+module program_memory #(parameter addr_width=7, mem_size=128)(
     input clk,
     input reset,
     input [addr_width-1:0] address,
