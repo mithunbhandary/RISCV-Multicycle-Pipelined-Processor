@@ -1,5 +1,4 @@
 `include "../Design/cpu_riscv_top.v"
-
 module cpu_riscv_tb;
 	// Inputs
 	reg clk;
