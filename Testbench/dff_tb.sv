@@ -1,5 +1,4 @@
 `include "../Design/dff.v"
-
 module dff_tb;
 
   // Parameters
