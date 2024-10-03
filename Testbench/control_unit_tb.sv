@@ -1,5 +1,4 @@
 `include "../Design/control_unit.v"
-
 module control_unit_tb;
 
   // Inputs
